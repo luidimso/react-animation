@@ -1,13 +1,7 @@
 import { createContext, useState } from 'react';
 
 export const ChallengesContext = createContext({
-  challenges: [{
-    deadline: "2023-12-27",
-    description: "Teste",
-    image: {src: '/src/assets/working-out.png', alt: 'Person working out.'},
-    title: "Teste",
-    staus: "active"
-  }],
+  challenges: [],
   addChallenge: () => {},
   updateChallengeStatus: () => {},
 });
